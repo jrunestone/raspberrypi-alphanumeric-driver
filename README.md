@@ -29,6 +29,10 @@ Here's a pinout with all the numberings: http://wiringpi.com/pins/.
 Then for the code, see AlphanumericDriverExample.cpp. It's really very simple :)
 You can also daisy chain multiple driver cards, just make sure to set the NUM_DISPLAYS constant accordingly.
 
+Build
+-----
+Compile with `g++ -Wall -o a AlphanumericDriverExample.cpp AlphanumericDriver.cpp -lwiringPi`.
+
 License
 -------
 Do whatever you want with it, link to my github repo if you feel like it :)
