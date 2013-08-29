@@ -340,6 +340,6 @@ uint16_t AlphanumericDriver::getShiftData(char c)
 			return PERIOD;
 
 		default:
-			break;
+			return 0;
 	}
 }
