@@ -2,6 +2,8 @@ raspberrypi-alphanumeric-driver
 ===============================
 A Raspberry Pi version of SparkFun's original alphanumeric display driver for the Arduino, using WiringPi.
 
+**Version 1.0**
+
 By Johan Johansson (https://github.com/swemaniac/raspberrypi-alphanumeric-driver)
 
 Resources:
