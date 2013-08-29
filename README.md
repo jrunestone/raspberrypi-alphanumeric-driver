@@ -18,6 +18,8 @@ You will need:
 * Serial Alphanumeric Display Driver card (https://www.sparkfun.com/products/10103)
 * Sparkfun 1.0" Single Digit Alphanumeric Display (https://www.sparkfun.com/products/9932)
 
+First thing is to install the Wiring Pi library on your Raspberry. See http://wiringpi.com/download-and-install/ for instructions.
+
 Solder your display onto the driver card and then wire it up to your Raspberry (5v, GND) on GPIO ports of your choice (headers 11, 12, 13, 15 for example).
 Take note of the WiringPi numbering of the GPIO ports (0-based) because that's what's used to configure the driver (not the original GPIO numberings).
 So for headers 11, 12, 13, 15 the WiringPi numbers are 0, 1, 2, 3.
