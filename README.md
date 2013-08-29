@@ -33,7 +33,7 @@ You can also daisy chain multiple driver cards, just make sure to set the NUM_DI
 
 Build
 -----
-Compile with `g++ -Wall -o a AlphanumericDriverExample.cpp AlphanumericDriver.cpp -lwiringPi`.
+Compile with `g++ -Wall -o example AlphanumericDriverExample.cpp AlphanumericDriver.cpp -lwiringPi`.
 
 License
 -------
